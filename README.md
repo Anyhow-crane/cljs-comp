@@ -7,6 +7,7 @@
 
 ```clj
 > lein figwheel
+> lein do clean, cljsbuild once min
 ```
 
 Go with browser to http://localhost:3449
