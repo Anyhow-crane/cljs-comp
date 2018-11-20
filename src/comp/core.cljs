@@ -10,7 +10,6 @@
 
 (defn home-page []
   (fn []
-    (println (str (.html (js/$ "#app"))))
     (.css (js/$ "#app") "background" "red")
     [:div
      [:h2 "Welcome to frontend"]
